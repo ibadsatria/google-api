@@ -1,0 +1,14 @@
+{
+    "jobs": [
+        {
+            "schedule": "*/1 * * * *",
+            "func": "pull_assessment_gsheet",
+            "enable": true
+        },
+        {
+            "schedule": "*/1 * * * *",
+            "func": "pull",
+            "enable": true
+        }
+    ]
+}
